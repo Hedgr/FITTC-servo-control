@@ -93,7 +93,10 @@ void setup()
 {
   Serial.begin(9600);
   Serial.print("\n\n===========================\nserial monitor begun\n");
-  
+  pinMode(out1_1, OUTPUT);
+  pinMode(out1_2, OUTPUT);
+  pinMode(out2_1, OUTPUT);
+  pinMode(out2_2, OUTPUT);
 }
 
 
