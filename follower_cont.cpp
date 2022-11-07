@@ -14,6 +14,9 @@ void setup()
   Serial.begin(9600);
   Serial.print("\n\n==============================\nserial began\n");  
   srv.attach(s_pin);
+  pinMode(in0,INPUT);
+  pinMode(in1,INPUT);
+  pinMode(s_pin,OUTPUT);
 }
 
 void loop()
